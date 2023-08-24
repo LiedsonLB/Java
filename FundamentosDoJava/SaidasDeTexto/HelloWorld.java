@@ -1,4 +1,5 @@
-class HelloWorld {
+package SaidasDeTexto;
+public class HelloWorld {
     public static void main(String[] args) {
 
         /* Print Imprime um texto na saída*/

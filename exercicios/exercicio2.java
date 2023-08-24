@@ -15,6 +15,7 @@ public class exercicio2 {
         int N = scan.nextInt();
 
         CriandoMatriz.crirMatriz(N);
+        scan.close();
     }
 }
 class CriandoMatriz {
