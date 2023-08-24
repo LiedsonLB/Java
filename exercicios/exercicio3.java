@@ -8,12 +8,10 @@ public class exercicio3 {
             {4, 5 ,6},
             {7, 8 ,9}
         };
-        int soma = SomaMatriz.somaMatriz(arr);
+        int soma = somaMatriz(arr);
         
         System.out.printf("Soma da matriz: %d", soma);
     }
-}
-class SomaMatriz {
     public static int somaMatriz(int[][] matriz){
         int sum = 0;
         for(int i = 0; i < matriz.length; i++){

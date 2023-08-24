@@ -14,11 +14,9 @@ public class exercicio2 {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
 
-        CriandoMatriz.crirMatriz(N);
+        crirMatriz(N);
         scan.close();
     }
-}
-class CriandoMatriz {
     public static void crirMatriz(int tam) {
         int[][] arr = new int[tam][tam];
         int num = 1;
