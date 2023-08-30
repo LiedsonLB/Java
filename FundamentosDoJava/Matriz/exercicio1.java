@@ -5,7 +5,7 @@ a seguinte matriz de inteiros:
  * 8 8 8
 */
 
-public class exercicio1 {
+public class Exercicio1 {
     public static void main(String[] args) {
 
         int[][] arr = new int[3][3];

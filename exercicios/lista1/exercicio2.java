@@ -6,7 +6,7 @@ import java.util.Scanner;
 sendo fornecida a distância total percorrida pelo automóvel e o total de
 combustível gasto. */
 
-public class exercicio2 {
+public class Exercicio2 {
     public static void main(String[] args) {
         Scanner scan =  new Scanner(System.in);
         double distance, combustive;

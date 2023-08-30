@@ -3,7 +3,7 @@
 a soma dos elementos da diagonal principal.
  */
 
-public class exercicio5 {
+public class Exercicio5 {
     public static void main(String[] args) {
         int[][] arr = {
             {1,2,3},

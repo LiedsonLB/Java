@@ -1,4 +1,4 @@
-public class exercicio4 {
+public class Exercicio4 {
     public static void main(String[] args){
         double[][] matriz = {
             {1.4,2.3,3.0},

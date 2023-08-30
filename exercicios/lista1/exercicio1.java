@@ -5,7 +5,7 @@ import java.util.Scanner;
 /* Escreva um algoritmo que leia dois números e ao final mostre a soma,
 subtração, multiplicação e a divisão dos números lidos */
 
-public class exercicio1 {
+public class Exercicio1 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         double num1, num2;

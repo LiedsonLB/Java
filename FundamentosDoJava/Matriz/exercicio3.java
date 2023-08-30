@@ -1,7 +1,7 @@
 /*Crie um método que receba uma matriz de números inteiros e retorne a
 soma de todos os seus elementos */
 
-public class exercicio3 {
+public class Exercicio3 {
     public static void main(String[] args){
         int[][] arr = {
             {1, 2 ,3},
