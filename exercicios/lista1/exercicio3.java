@@ -20,16 +20,13 @@ public class Exercicio3 {
         System.out.print("Informe o Total de vendas no mes(R$): ");
         double vendasTotal = scan.nextDouble();
         
-        // Calcula o salário mensal considerando a comissão de 15% sobre as vendas
         double salarioMensal = salarioFixo + (vendasTotal * 0.15);
         
-        // Chama a função para exibir as informações do vendedor
         exibirInfoVendedor(nome, salarioFixo, salarioMensal);
         
         scan.close();
     }
     
-    // Função para exibir as informações do vendedor
     public static void exibirInfoVendedor(String nome, float salarioFixo, double salarioMensal) {
         System.out.println("Informações do vendedor:");
         System.out.println("Nome: " + nome);
