@@ -1,3 +1,4 @@
+package exercicios.lista3;
 /* Crie uma classe Pessoa em Java que:
 a) contenha os atributos nome, idade e altura, peso.
 b) encapsule os atributos.

@@ -1,3 +1,4 @@
+package exercicios.lista3;
 /* Crie uma classe Conta com de acordo com a figura abaixo.
 a) Encapsule todos os atributos.
 b) Crie todos os métodos como está especificado na figura acima inclusive o método
@@ -40,25 +41,15 @@ class Conta {
     private String nome;
     private double saldo;
 
-    /* Metodo get */
-    public int getNumero(){
-        return numero;
-    }
-    public String getNome(){
-        return nome;
-    }
-    public double getSaldo(){
-        return saldo;
-    }
-
-    /* metodo set */
-    public void setNumero(int numero){
-        this.numero = numero;
-    }
-    public void setNome(String nome){
+    /* Metodo construtor */
+    public void setConta(String nome, int numero, double saldo){
         this.nome = nome;
+        this.numero = numero;
+        this.saldo = saldo;
     }
-    public void setSaldo(){
+    
+    public boolean saca(double saque){
+    }
 
-    }
+    /* Metodos Operacões */
 }
